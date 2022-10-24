@@ -1,0 +1,23 @@
+$(document).ready(function()
+{
+    $("#log").validate(
+        {
+            rules:
+            {
+                email:
+                {
+                    required:true,
+                    minlength:4,
+                    email:true
+                    
+                },
+                pass:
+                {
+                    required:true,
+                    minlength:4,
+                    maxlength:10
+                }
+            }
+        }
+    )
+})
