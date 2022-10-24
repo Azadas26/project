@@ -14,8 +14,8 @@ $(document).ready(function()
                 pass:
                 {
                     required:true,
-                    minlength:4,
-                    maxlength:10
+                    minlength:6,
+                    maxlength:15
                 }
             }
         }
